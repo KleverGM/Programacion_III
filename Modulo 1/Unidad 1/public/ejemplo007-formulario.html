@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Imagen</title>
+    </head>
+    <body>
+        <form action="https://www.youtube.com" method="POST">
+            <table>
+                <tr>
+                    <td>
+                        <label form="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder=""pedro>
+                    </td>
+                
+                    <td>
+                        <label form="apellido">Apellido</label>
+                        <input type="text" id="apellido" name="apellido" placeholder="">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label form="nombre">Pais</label>
+                        <select id="pais" name="pais">
+                            <option value="España">España</option>
+                            <option value="Francia">Francia</option>
+                            <option value="Alemania">Alemania</option>
+                        </select>
+                    </td>      
+                </tr>
+                <tr>
+                    <td>
+                        <label form="nombre">provincias</label>
+                        <select id="provincia" name="provincia">
+                            <option value="España">España</option>
+                            <option value="Francia">Francia</option>
+                            <option value="Alemania">Alemania</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="nombre">Colores</label>
+                        <select id="colores" name="colores" multiple>
+                            <option value="1">axul</option>
+                            <option value="2">rokjo</option>
+                            <option value="3">amarilli</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="nombre">Direccion</label>
+                        <textarea
+                        id="direccion" name="direccion" rows="5" cols="30">
+                        av. occidental UTE
+                        </textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="navegadores">navegadores</label>
+                        <input id="range" id="a" name="a">
+
+                    </td>
+                    <td>
+                        <label for="nombre">edad</label>
+                        <input type="number" id ="b" name="b">
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td>
+                    <label for="navegadores">genero</label>
+                    <input type="radio" id="masculino" name="masculino"> masculino
+                    <input type="radio" id="femenino" name="femenino"> femennino
+
+                </td>
+                <td>
+                    <label for="nombre">hobby</label>
+                    <input type="checkbox" id="cantar" name="cantar"> cantar
+                    <input type="checkbox" id="leer" name="leer"> leer
+                    
+                </td>
+            </tr>
+            </table>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
