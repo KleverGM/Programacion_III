@@ -1,0 +1,1 @@
+console.log("Hello word desde un archivo externo");
