@@ -1,0 +1,115 @@
+.texto1 {
+    color: red;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1ch;
+    word-spacing: 5px;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+
+
+.fondo {
+    position: relative;
+    background-image: url(https://img.freepik.com/fotos-premium/ilustracion-digital-racha-luz-silueta-motociclista-motocicleta-deportiva_800563-120.jpg?semt=ais_hybrid&w=740);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    width: 100vw;
+}
+
+
+.box {
+    position: static;
+    width: 300px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.8);
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 1;
+    margin: -5px auto 10px;
+
+  }
+
+
+.boton {
+    background-color:orangered; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, ease-in-out;
+}
+.boton:hover {
+    background-color: red;
+}
+
+.boton2 {
+    background-color:orangered; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, ease-in-out;
+}
+.boton2:hover {
+    background-color: red;
+}
+.boton3 {
+    background-color:orangered; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, ease-in-out;
+}
+.boton3:hover {
+    background-color: red;
+}
+.boton4 {
+    background-color:orangered; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, ease-in-out;
+}
+.boton4:hover {
+    background-color: red;
+}
+.boton5 {
+    background-color:orangered; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, ease-in-out;
+}
+.boton5:hover {
+    background-color: red;
+}
+.boton6 {
+    background-color:orangered; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, ease-in-out;
+}
+.boton6:hover {
+    background-color: red;
+}
+.contenedor-botones {
+    margin-top: 20px;
+}
