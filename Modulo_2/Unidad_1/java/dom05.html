@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>document object model</title>
+        <style>
+            .boton {
+                padding: 10px;
+                background-color: blue;
+                color: white;   
+            }
+        </style>
+    </head>
+    <body>
+      <h1>eventos inline</h1>
+      <button onclick="alert('hola')">click</button>
+      <br>
+      <button onclick="mostraralerta()">mostrar alerta</button>
+      <br>
+      <input type="text" oninput="console.log(this.value)">
+      <br>
+      <button onclick="agregarproducto()">agregar producto</button>
+      <br>
+      <br>
+      <ul id="listaproductos"></ul>
+      <h1>eventos con addEventListener</h1>
+      <button id="boton" class="boton">haz click</button>
+      <br>
+      <input id="campo" type="text"> placeholder="escribe algo">
+      <br>
+      <button id="btnagregar" class="boton">agregar productos</button>
+      <ul id="listaproductos2"></ul>
+      <script src="dom05.js"></script>
+    </body>
+</html>
